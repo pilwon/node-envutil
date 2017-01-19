@@ -21,7 +21,7 @@ export interface ParseStringOptions extends ParseOptions {
 export function parseEnv(name: string, options: ParseOptions = {}) {
   const value = process.env[name];
   if (value === undefined && options.ensure) {
-    throw new Error(`process.env["${value}"] not set`);
+    throw new Error(`missing envvar - ${name}`);
   }
   return value;
 }
