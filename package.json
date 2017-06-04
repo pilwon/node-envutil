@@ -10,7 +10,7 @@
   "homepage": "https://github.com/pilwon/node-envutil",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pilwon/envutil.git"
+    "url": "git://github.com/pilwon/node-envutil.git"
   },
   "keywords": [
     "env",
